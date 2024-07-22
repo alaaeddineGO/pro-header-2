@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none
+}
+li{
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import './App';
+@import './Components/Header/Header';
+@import './Pages/About/About';
+@import './Pages/Contact/Contact';
+@import './Pages/Home/Home';
+@import './Pages/Services/Services';

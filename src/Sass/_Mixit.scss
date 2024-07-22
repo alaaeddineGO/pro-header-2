@@ -1,0 +1,25 @@
+//font-family
+$f-fj:"Josefin Sans", sans-serif;
+$f-fm:"Merriweather", serif;
+//color
+$clr-primary: #38bdf8;
+$clr-secandry: #f0f8ff;
+$clr-red: #ff0000;
+
+
+@mixin font($f-f,$f-s,$f-w){
+    font-family: $f-f;
+    font-size: $f-s;
+    font-weight: $f-w;
+    font-style: normal;
+}
+@mixin fcc{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+@mixin fcs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

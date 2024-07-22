@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/StockCake-Cityscape Contemplation Silhouette_1721649617.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  color: aliceblue;
+}
+.container div {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 0;
+}
+
+@media (max-width: 443px) {
+  .container {
+    width: 100%;
+  }
+}
+.wrapper {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(25%);
+          backdrop-filter: blur(25%);
+  box-shadow: 5px 1px 20px 0px rgba(0, 0, 0, 0.4509803922);
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper h2 {
+  padding: 0 0 0 15px;
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -4px;
+}
+.wrapper h2 a {
+  color: #f0f8ff;
+}
+.wrapper h2 span {
+  color: #ff0000;
+}
+.wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper ul li {
+  padding: 10px;
+}
+.wrapper ul li a {
+  color: #f0f8ff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  transition: 0.5s;
+}
+.wrapper ul li a:hover {
+  color: #ff0000;
+  font-size: 25px;
+}
+.wrapper .icon {
+  display: none;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #f0f8ff;
+}
+
+@media (max-width: 485px) {
+  .pading {
+    padding-bottom: 140px;
+  }
+  .wrapper {
+    width: 100%;
+    box-shadow: none;
+    transition: 0.5s;
+  }
+  .wrapper ul > li {
+    width: 100%;
+    position: fixed;
+    left: 100%;
+    flex-direction: column;
+  }
+  .wrapper ul > li:nth-child(1) {
+    transition: 0.5s;
+    top: 38px;
+  }
+  .wrapper ul > li:nth-child(2) {
+    top: 73px;
+    transition: 0.8s;
+  }
+  .wrapper ul > li:nth-child(3) {
+    top: 108px;
+    transition: 1.1s;
+  }
+  .wrapper ul > li:nth-child(4) {
+    top: 143px;
+    transition: 1.3s;
+  }
+  .wrapper .opennav > li:nth-child(1) {
+    left: 0%;
+    background: linear-gradient(116deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+  }
+  .wrapper .opennav > li:nth-child(2) {
+    left: 0%;
+    background: linear-gradient(116deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+  }
+  .wrapper .opennav > li:nth-child(3) {
+    left: 0%;
+    background: linear-gradient(116deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+  }
+  .wrapper .opennav > li:nth-child(4) {
+    left: 0%;
+    background: linear-gradient(116deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+  }
+  .wrapper .icon {
+    display: block;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=index.css.map */
