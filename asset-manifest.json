@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pro-header-2/static/css/main.ec0db68c.css",
+    "main.js": "/pro-header-2/static/js/main.171e695e.js",
+    "static/media/StockCake-Cityscape Contemplation Silhouette_1721649617.jpg": "/pro-header-2/static/media/StockCake-Cityscape Contemplation Silhouette_1721649617.cf818f7c57d6b5dddf35.jpg",
+    "index.html": "/pro-header-2/index.html",
+    "main.ec0db68c.css.map": "/pro-header-2/static/css/main.ec0db68c.css.map",
+    "main.171e695e.js.map": "/pro-header-2/static/js/main.171e695e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0db68c.css",
+    "static/js/main.171e695e.js"
+  ]
+}
